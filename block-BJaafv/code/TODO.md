@@ -12,9 +12,16 @@ function sum(a, b) {
 }
 ```
 
+// Ans - the first function sum will return value (a + b) whereas the second function sum will print  the value of (a + b) in console .  //
+
+
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
+//  Ans - first = 
+
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
+
+Ans - 
 
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
 
@@ -31,6 +38,11 @@ function showMessage() {
 }
 
 showMessage();
+
+
+output - Hello, John. 
+
+
 ```
 
 7. What will be the output for `Output1` `Output2` and `Output3` in the code below.
@@ -43,18 +55,21 @@ function showMessage() {
   return message;
 }
 
-alert(userName); // Output 1
+alert(userName); // Output 1  -  alert message John
 
-showMessage(); // Output 2
+showMessage(); // Output 2   -   
 
 alert(userName); // Output 3
+
 ```
 
 8. What is a Anonymous Function give example of three functions.
 
-9. Can function declaration be a Anonymous Function? Explain
+9. Can function declaration be a Anonymous Function? Explain 
 
-10. Give 5 example of good naming convention for defining a function. You can read the details below to do that.
+Ans - No , because we need a function name for declaration.
+
+10. Give 5 example of good naming convention for defining a function. You can read the details below to do that. 
 
 ```md
 Functions are actions. So their name is usually a verb. It should be brief, as accurate as possible and describe what the function does, so that someone reading the code gets an indication of what the function does.
@@ -70,3 +85,4 @@ Function starting with…
 "create…" – create something,
 "check…" – check something and return a boolean, etc.
 ```
+
