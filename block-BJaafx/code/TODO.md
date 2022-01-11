@@ -48,6 +48,22 @@ function getOddSum(max = 10) {
 
 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
 
+function getProductOfDigits(num)
+{  
+  let product = 1;
+    while(num > 0){
+      let remainder = (num % 10)
+      num= num- remainder;
+      product = product * remainder;
+      num = num / 10;
+    }
+    return product;
+    if(num < 0){
+      return `Enter valid input`;
+    }
+  }
+
+
 - If the input value is less than 0 return `not a valid input`
 - For example if the input is `123` output should be `6`.
 
@@ -104,3 +120,4 @@ getOutput(); // 'Who are you'
 ans - Yes but not in same block.
 
 10. What is the difference between `for` loop and `while` loop. What are the different place you can use them? Explain with example.
+
